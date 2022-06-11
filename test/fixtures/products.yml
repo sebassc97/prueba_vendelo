@@ -1,0 +1,15 @@
+
+
+ps4:
+  title: PS4 Fat
+  description: PS4 en buen estado
+  price: 150
+  category: videogames
+
+switch:
+  title: Nintendo  Switch
+  description: le falla todo
+  price: 195
+  category: videogames
+
+

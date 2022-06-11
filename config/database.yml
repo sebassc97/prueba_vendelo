@@ -1,0 +1,37 @@
+development:
+  host: localhost
+  port: 5432
+  database: vendelo_development
+  username: postgres
+  password: postgres
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+# test:
+#   database: nuevadb
+#   username: postgres
+#   password: postgres
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+production:
+  database: nuevadb
+  username: postgres
+  password: postgres
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+test:
+  database: vendelo_test
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+# production:
+#   <<: *default
+#   database: vendelo_production
+#   username: vendelo
+#   password: <%= ENV["VENDELO_DATABASE_PASSWORD"] %>

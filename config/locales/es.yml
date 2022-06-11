@@ -1,0 +1,7 @@
+es:
+products:
+    edit:
+        title: 'Editar producto'
+
+index:
+    all: 'Todos'
